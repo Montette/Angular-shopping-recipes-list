@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipes-app';
+  displayedComponent: string = 'Recipes';
+
+  showComponent(comp: string) {
+    this.displayedComponent = comp;
+  }
 }
