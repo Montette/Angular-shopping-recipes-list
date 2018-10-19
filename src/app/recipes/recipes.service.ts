@@ -15,7 +15,7 @@ export class RecipesService {
      'https://flockler.com/thumbs/sites/192/untitled_s600x600_c2318x1351_l0x1104.jpg',
      [new Ingredient('broccoli', 1), new Ingredient('chicken', 1)])
   ];
-  recipeDetails = new EventEmitter<Recipe>();
+  // recipeDetails = new EventEmitter<Recipe>();
   constructor() { }
 
   selectRecipe(recipe) {
