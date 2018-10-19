@@ -1,0 +1,6 @@
+<p *ngIf="id >= 0, else newMode">
+  recipe-edit works! Edit recipe with id {{id}}
+</p>
+<ng-template #newMode>
+    recipe-edit works! Add new recipe
+  </ng-template>
